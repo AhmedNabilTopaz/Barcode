@@ -7,7 +7,7 @@
     'summary': 'Editing Barcode ',
     'description': "",
     'website': 'http://topazsmart.com/',
-    'depends': ['account', 'purchase', 'sale', 'stock'],
+    'depends': ['account', 'purchase', 'sale', 'stock','stock_barcode'],
     'sequence': -100,
     'data': [
         'views/stock_move_line_views.xml',
